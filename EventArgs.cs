@@ -1,7 +1,7 @@
 using System;
 
 // Define a custom EventArgs class to hold event data
-public class ButtonClickedEventArgs : EventArgs
+public class ButtonClickedEventArgs: EventArgs
 {
     public string Message { get; }
 
