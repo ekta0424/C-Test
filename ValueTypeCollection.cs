@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-public class ValueTypeCollection<T> where T : struct
+public class ValueTypeCollection<T> where T: struct
 {
     // Private generic collection to hold items
     private List<T> _items = new List<T>();
